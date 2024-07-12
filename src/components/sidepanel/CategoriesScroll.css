@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #13b50a;
+    border-radius: 5px;
+}
+
+.categoryElements {
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 8px;
+    background: #ededed;
+    scroll-behavior: smooth;
+    transition: all;
+}
+
+.categoryElements:hover {
+    cursor: pointer;
+    color: rgb(17 93 51);
+}
